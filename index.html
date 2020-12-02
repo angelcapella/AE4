@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>grafics</title>
+    <title>GRAFICA DEL TIEMPO</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="scr/js/main.js"></script>
 </head>
 <body>
-    <input type="text" id="input">Temperatura
-    <input type="text" id="input">Lluvia
-    <input type="text" id="input">Tiempo
-    <input type="button" value="Actualizar" onclick="location.reload()"/>
+    <form action="">
+    <input type="text" id="Temperatura">Temperatura
+    <input type="text" id="Lluvia">Lluvia
+    <input type="text" id="Tiempo">Tiempo
+    <input type="button" value="Actualizar" id="Actualizar"/>
+    </form>
     <canvas id="miGrafica"></canvas>
 </body>
 </html>
