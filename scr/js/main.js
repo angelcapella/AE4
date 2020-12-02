@@ -1,22 +1,18 @@
 document.addEventListener('DOMContentLoaded' , () => {
     
-Chart.defaults.global.defaultFontFamily = "Lato";
+  
 Chart.defaults.global.defaultFontSize = 18;
 
 const serie1 = {
     label: "Temperaturas",
-    data: [3, 4, 3, 5, 7, 10, 12, 15, 12, 10,7, 5],
-    lineTension: 0,
-    fill: false,
+    data: [3, 4, 3, 5, 7, 10, 12, 15, 12, 10, 7, 5],
     borderColor: 'red'
   };
 
 const serie2 = {
     label: "Lluvias",
-    data: [40 , 60 , 110 , 70 , 20 , 15 , 10, 15 , 90 , 120 , 80 , 50 ],
-    lineTension: 0,
-    fill: false,
-  borderColor: 'blue'
+    data: [40, 60, 110, 70, 20, 15, 10, 15, 90, 120, 80, 50 ],
+    borderColor: 'blue'
   };
 
 const tiempo = {
